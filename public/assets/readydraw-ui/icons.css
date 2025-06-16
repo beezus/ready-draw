@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "readydraw-ui";
+  src: url("./readydraw-ui.eot");
+  src: url("./readydraw-ui.eot?#iefix") format("embedded-opentype"),
+       url("./readydraw-ui.woff") format("woff"),
+       url("./readydraw-ui.ttf") format("truetype"),
+       url("./readydraw-ui.svg#ui-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "readydraw-ui";
+    src: url("./readydraw-ui.svg#ui-icons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-color:before,
+.icon-eraser:before,
+.icon-export:before,
+.icon-fill:before,
+.icon-line:before,
+.icon-pencil:before,
+.icon-stroke-width-1:before,
+.icon-stroke-width-2:before,
+.icon-stroke-width-3:before,
+.icon-stroke-width-4:before,
+.icon-stroke-width-5:before,
+.icon-trash:before,
+.icon-undo:before {
+  display: inline-block;
+  font-family: "readydraw-ui";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-color:before { content: "\f102"; }
+.icon-eraser:before { content: "\f105"; }
+.icon-export:before { content: "\f11e"; }
+.icon-fill:before { content: "\f101"; }
+.icon-line:before { content: "\f100"; }
+.icon-pencil:before { content: "\f104"; }
+.icon-stroke-width-1:before { content: "\f12b"; }
+.icon-stroke-width-2:before { content: "\f12c"; }
+.icon-stroke-width-3:before { content: "\f12d"; }
+.icon-stroke-width-4:before { content: "\f12e"; }
+.icon-stroke-width-5:before { content: "\f12f"; }
+.icon-trash:before { content: "\f11f"; }
+.icon-undo:before { content: "\f113"; }

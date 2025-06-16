@@ -1,0 +1,96 @@
+/* Common button styles */
+.brush-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.brush-button.active {
+  background: #888;
+  opacity: 0.6;
+  cursor: default;
+}
+
+.brush-button:not(.active) {
+  background: #444;
+  opacity: 1;
+}
+
+/* Stroke buttons */
+.stroke-button {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.stroke-button.active {
+  background: #888;
+  opacity: 0.6;
+  cursor: default;
+}
+
+.stroke-button:not(.active) {
+  background: #444;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Tool icons */
+.tool-icon {
+  font-size: 28px;
+  color: #fff;
+}
+
+/* Tool container */
+.brush-container {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Color swatch */
+.color-swatch {
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  display: inline-block;
+}
+
+/* Color grid */
+.color-grid {
+  display: grid;
+  grid-template-rows: repeat(8, 1.8rem);
+  gap: 0;
+  padding: 0;
+  border: 1px solid white;
+}
+
+.color-row {
+  display: grid;
+  grid-template-columns: repeat(8, 1.8rem);
+  gap: 0;
+}
+
+.color-cell {
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.brush-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px;
+}

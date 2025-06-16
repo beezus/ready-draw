@@ -1,0 +1,24 @@
+/* Prevent default touch actions on canvas */
+canvas {
+  touch-action: none;
+}
+
+.canvas-container {
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden;
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  /* Apply padding for all safe areas */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+.canvas {
+  background-color: white;
+  display: block;
+  /* Canvas size will be managed by JavaScript */
+  margin: auto;
+}
