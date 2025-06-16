@@ -26,8 +26,8 @@ A web-based drawing application that lets you create quick sketches and creative
 
 1. Clone this repository
    ```
-   git clone https://github.com/beezus/readydraw-app.git
-   cd readydraw-app
+   git clone https://github.com/beezus/readydraw.git
+   cd readydraw
    ```
 
 2. Install dependencies
